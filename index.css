@@ -1,0 +1,220 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to top right, #001638, #001780, #3498db);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+}
+img {
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+}
+#nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color:aqua;
+    background-color: rgb(2, 38, 88);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 90%;
+    gap: 100px;
+}
+#navlinks {
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#navlink {
+    border: 1px solid rgb(2, 122, 250);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#footer {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#social {
+    border: 1px solid rgb(2, 122, 250);
+    margin: 3px;
+    padding: 3px;
+    border-radius: 15px;
+}
+a {
+    text-decoration: none;
+    color:aqua;
+}
+a:active {
+    color:aqua;
+}
+a:visited {
+    color:aqua;
+}
+#navlink:hover {
+    background-color: rgb(2, 122, 250);
+}
+#social:hover {
+    background-color: rgb(2, 122, 250);
+}
+#page {
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 100px;
+}
+#contact-btn {
+    margin: 0;
+    padding: 5px;
+    height: 20px;
+    width: 100px;
+    background-color: rgb(1, 36, 88);
+    /* background-color: transparent; */
+    border: 1px solid rgb(2, 122, 250);
+    color:aqua;
+    text-align: center;
+    cursor: pointer;
+}
+#contact-btn:hover {
+    background-color: rgb(2, 122, 250);
+}
+.link-act {
+    background-color: rgb(2, 122, 250);
+    margin: 10px;
+    padding: 10px;
+}
+p {
+    color: aqua;
+}
+h1 {
+    color: #0CF486;
+}
+.work h1 {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+.stbl {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    grid-auto-rows: 30px;
+    gap: 15px;
+    transform: translateX(50px);
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.stbl-itm {
+    background-color: white;
+    border-radius: 12px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+    background-color: #001650;
+    border: 1px solid rgb(2, 122, 250);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.stbl-itm:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+#work {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+    justify-items: center;
+    gap:10px;
+    margin: 20px;
+    padding: 20px;
+}
+#card {
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(2, 38, 88);
+    border-radius: 10px;
+    border: 1px solid rgb(2, 122, 250);
+    max-width: 300px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.card img {
+    width: 95%;
+    height: 140px; /*smaller height*/
+    object-fit: cover; /*keeps aspect*/
+    display: block;
+    transform: translateX(-5px);
+    border: 2px solid rgb(2, 122, 250);
+    border-radius: 5px;
+}
+h3 {
+    text-align: center;
+    color: aqua;
+    margin: 5px;
+    padding: 0;
+}
+h4 {
+    text-align: center;
+    margin: 5px;
+    padding: 0;
+    color: white;
+    font-weight: normal;
+}
+h5 {
+    text-align: center;
+    margin: 5px;
+    padding: 0;
+    color: white;
+    font-weight: normal;
+}
+h6 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+#contact {
+    margin-bottom: 100px;
+}
+#contact-page {
+    margin: 20px;
+    padding: 20px;
+}
+.div1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(2, 122, 250);
+    border-radius: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    justify-self: center;
+    align-self: center;
+    top: 50px;
+    left: 300px;
+}
