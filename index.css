@@ -10,6 +10,14 @@ body {
     align-items: center;
     overflow: hidden;
 }
+.body-img {
+    height: 100vh;
+    width: 100vw;
+    object-fit:cover;
+    position:absolute;
+    transform: translateY(60px);
+    z-index: -1;
+}
 img {
     margin: 10px;
     width: 100px;
@@ -48,11 +56,35 @@ img {
     margin-bottom: 0;
     padding-bottom: 0;
 }
-#social {
+.social {
     border: 1px solid rgb(2, 122, 250);
     margin: 3px;
     padding: 3px;
     border-radius: 15px;
+}
+#social2 {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(2, 122, 250);
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+#socials2 {
+    display: flex;
+    margin-top: 30px;
+    background-color: transparent;
+}
+#social2:hover{
+    background-color: rgb(2, 122, 250);
+}
+.connect {
+    margin-top: 10px;
+    padding-top: 10px;
+    transform: translateX(120px);
+    color: #0CF486;
 }
 a {
     text-decoration: none;
@@ -82,7 +114,6 @@ a:visited {
     height: 20px;
     width: 100px;
     background-color: rgb(1, 36, 88);
-    /* background-color: transparent; */
     border: 1px solid rgb(2, 122, 250);
     color:aqua;
     text-align: center;
@@ -166,8 +197,8 @@ h1 {
 }
 .card img {
     width: 95%;
-    height: 140px; /*smaller height*/
-    object-fit: cover; /*keeps aspect*/
+    height: 140px;
+    object-fit: cover;
     display: block;
     transform: translateX(-5px);
     border: 2px solid rgb(2, 122, 250);
